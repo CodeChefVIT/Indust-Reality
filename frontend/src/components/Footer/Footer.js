@@ -9,7 +9,7 @@ import Linkedin from "../../images/Linkedin.png";
 
 const Footer = () => {
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" id="footer">
             <div className={styles.container}>
                 <img src={CodechefLogo} alt="" />
                 <div className={styles.social_container}>

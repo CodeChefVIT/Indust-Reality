@@ -15,9 +15,7 @@ const Hero = () => {
                             <a href="#speakers">Speakers</a>
                         </li>
                         <li className="bg-[#b86cff] cursor-pointer">
-                            <a href="https://events.vit.ac.in/events/gravitas2022/"
-                                rel="noreferrer"
-                                target="_blank"
+                            <a href="#footer"
                             >
                                 Contact Us
                             </a>
