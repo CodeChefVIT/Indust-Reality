@@ -99,6 +99,8 @@
   outline: 2px solid black;
   border: 0;
   transition: all 400ms ease;
+  display: flex;
+  justify-content: center;
 }
 
 .content_container button:hover {
@@ -128,6 +130,16 @@
   text-align: center;
   width: 100%;
   font-weight: 400;
+  font-family: "mudclaw";
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "mudclaw";
+  color: #b86cff;
+}
+
+#event-loc {
+  font-size: 1.5rem;
+  font-weight: 600;
   font-family: "mudclaw";
 }
 
