@@ -28,12 +28,12 @@ const Hero = () => {
                     <div className={styles.content_container}>
                         <div className={styles.title_heading_container}>
                             <h1 className="lg:-translate-y-14">Indust-Reality</h1>
-                            <p className="lg:-translate-y-14 text-xl about-text">
+                            <p className="lg:-translate-y-14 text-xl about-text" id="herotxt">
                                 A seminar-cum-hands-on-workshop focused around all the different aspects and domains of a Product Development Cycle.
                             </p>
                         </div>
                         <div className="lg:-translate-y-14">
-                            <h3 className="mb-8 font-bold text-2xl event-loc">Event Location : CDMM-212</h3>
+                            <h3 className="mb-8 font-bold text-2xl event-loc" id="event-loc">Event Location : TT-237</h3>
 
                             <button className={styles.hero_button}>
                                 <a href="https://events.vit.ac.in/events/gravitas2022/" rel="noreferrer"
