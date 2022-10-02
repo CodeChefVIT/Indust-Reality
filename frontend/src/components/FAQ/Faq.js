@@ -217,7 +217,8 @@ export default function Faq() {
                         </Typography>
                     </AccordionDetails>
                 </div>
-            </Accordion>
+            </Accordion>'
+            {console.log("What does the answer of two riddles add to?")}
         </div>
     );
 }
