@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import aboutimg from "../../images/About.png";
+// import aboutimg from "../../images/About.png";
 import aboutsvg from "../../images/Indust-reality-about.svg";
 
 const About = () => {
