@@ -76,8 +76,8 @@ const Speaker = () => {
                         </div>
                         <div className={styles.title_link_image}>
                             <h1>{title}</h1>
-                            <a href={url} target="_blank">
-                                <img src={Link} />
+                            <a href={url} target="_blank" rel="noreferrer">
+                                <img src={Link} alt="link" />
                             </a>
                         </div>
 
@@ -87,8 +87,7 @@ const Speaker = () => {
                         className={styles.box}
                         style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
-                            setTitle("Praveen Kumar"), setDesc("Praveen Kumar Purushothaman is a full stack developer, . He has been instrumental in creating content in full stack development, new frameworks, open-source products, etc. and has over 9k subscribers on his YouTube channel."), setUrl("https://www.linkedin.com/in/praveentech/"),
-                            setUrl("https://www.linkedin.com/in/praveentech/")
+                            setTitle("Praveen Kumar"), setDesc("Praveen Kumar Purushothaman is a full stack developer, . He has been instrumental in creating content in full stack development, new frameworks, open-source products, etc. and has over 9k subscribers on his YouTube channel."), setUrl("https://www.linkedin.com/in/praveentech/")
                         )}>
                         <img src={praveen} alt="" />
                     </div>
